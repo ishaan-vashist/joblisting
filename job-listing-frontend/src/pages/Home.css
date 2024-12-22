@@ -1,0 +1,272 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafc;
+}
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(90deg, #0056b3, #0078e7);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background-color: #f1c40f;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #d4a80f;
+  transform: translateY(-3px);
+}
+
+/* Features Section */
+.features-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  color: #0056b3;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Recent Jobs Section */
+.recent-jobs-section {
+  background-color: #f4f8fc;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.recent-jobs-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.recent-jobs-section .recent-jobs-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.jobs-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.job-title {
+  font-size: 1.6rem;
+  color: #0056b3;
+  margin: 0;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: -5px;
+}
+
+.job-info {
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.job-info p {
+  margin: 5px 0;
+}
+
+.job-footer {
+  text-align: right;
+}
+
+.job-details-link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #0056b3;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.job-details-link:hover {
+  background-color: #003f8a;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.no-jobs-message {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-button-secondary {
+  padding: 15px 30px;
+  background-color: #f1c40f;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button-secondary:hover {
+  background-color: #d4a80f;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .jobs-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .cta-button,
+  .cta-button-secondary {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

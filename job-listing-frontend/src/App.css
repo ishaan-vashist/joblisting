@@ -1,0 +1,19 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.app-footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #666;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
